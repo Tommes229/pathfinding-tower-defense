@@ -89,7 +89,7 @@ Link to the used JDK: https://adoptium.net/?variant=openjdk11
 
 ## Licenses
 
-Have a look at the `dune/assets/licenses` folder to see the licenses for the used game assets.  
+Have a look at the `dune/core/assets/` folder to see the licenses for the used game assets.  
 
 ---
 
@@ -103,4 +103,4 @@ Have a look at the `dune/assets/licenses` folder to see the licenses for the use
 
 ## License
 
-This project is for educational purposes.
+This project was for educational purposes.
