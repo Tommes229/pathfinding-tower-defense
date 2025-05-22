@@ -90,6 +90,7 @@ Link to the used JDK: https://adoptium.net/?variant=openjdk11
 ## Licenses
 
 Have a look at the `dune/assets/licenses` folder to see the licenses for the used game assets.  
+
 ---
 
 ## Acknowledgments
