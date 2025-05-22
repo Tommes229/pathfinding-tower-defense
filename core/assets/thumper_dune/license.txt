@@ -1,0 +1,11 @@
+Model Information:
+* title:	Thumper (Dune)
+* source:	https://sketchfab.com/3d-models/thumper-dune-92545b32982241d59c925bd3b6422c4c
+* author:	Demetra Great (https://sketchfab.com/demetra_great)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Thumper (Dune)" (https://sketchfab.com/3d-models/thumper-dune-92545b32982241d59c925bd3b6422c4c) by Demetra Great (https://sketchfab.com/demetra_great) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

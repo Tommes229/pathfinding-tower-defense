@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bomb Rock
+* source:	https://sketchfab.com/3d-models/bomb-rock-96b240f830854da1a3ae28397d25f345
+* author:	OctoRock Studios (https://sketchfab.com/Piklopedian)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bomb Rock" (https://sketchfab.com/3d-models/bomb-rock-96b240f830854da1a3ae28397d25f345) by OctoRock Studios (https://sketchfab.com/Piklopedian) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

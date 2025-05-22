@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bull Skull
+* source:	https://sketchfab.com/3d-models/bull-skull-94696bad0e53420486067aba24aac144
+* author:	USBEN (https://sketchfab.com/usben)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bull Skull" (https://sketchfab.com/3d-models/bull-skull-94696bad0e53420486067aba24aac144) by USBEN (https://sketchfab.com/usben) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
