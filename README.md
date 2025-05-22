@@ -1,60 +1,105 @@
-# Dune-TD (Template)
+# LibGDX Tower Defense Game (Dijkstra Pathfinding)
 
-This is the Dune-TD template provided by Dennis Jehle for your implementation of Dune-TD. Feel free to modify the template. If you want to use another framework or programming language, please contact your tutor.
+This is a tower defense game developed with **LibGDX** as a university project.  
+The main feature of this project is the use of **Dijkstra’s algorithm** for real-time pathfinding, allowing enemies to find the shortest path through the map while dynamically responding to player-built towers and obstacles.
 
-![](template_screenshot_menu.png)
+---
 
-![](template_screenshot_game.png)
+## Features
 
-![](template_screenshot_showcase.png)
+- **Dijkstra Algorithm** for dynamic pathfinding
+- Basic tower defense mechanics (placing towers, spawning enemies, health, etc.)
+- Real-time path recalculation when the map changes
 
-## Requirements
+---
 
-The template was tested with `OpenJDK Runtime Environment Temurin-11.0.12+7 (build 11.0.12+7)` on:
+## Demo
 
-* Windows 10
-* Linux
+**Gameplay Animation:**  
+![Gameplay Animation](example_video.gif)
 
-Link to the used JDK: [https://adoptium.net/?variant=openjdk11](https://adoptium.net/?variant=openjdk11)
+---
 
-## Useful resources
+## Getting Started
 
-[https://libgdx.com/](https://libgdx.com/)
+### Prerequisites
 
-[https://github.com/libgdx/libgdx](https://github.com/libgdx/libgdx)
+- Java 8+ (tested with OpenJDK 11, see [Adoptium OpenJDK 11](https://adoptium.net/?variant=openjdk11))
+- [Gradle](https://gradle.org/) (or use the Gradle wrapper)
+- [LibGDX](https://libgdx.com/)
 
-[https://github.com/libgdx/libgdx/wiki](https://github.com/libgdx/libgdx/wiki)
+### How to Run
 
-[https://libgdx.badlogicgames.com/ci/nightlies/docs/api/](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/)
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/your-tower-defense-repo.git
+    cd your-tower-defense-repo
+    ```
+2. **Build and run:**
+    ```bash
+    ./gradlew desktop:run
+    ```
 
-[https://libgdx.com/community/](https://libgdx.com/community/)
+---
 
-[https://github.com/czyzby/gdx-skins](https://github.com/czyzby/gdx-skins)
+## Algorithms
 
-[https://github.com/mgsx-dev/gdx-gltf](https://github.com/mgsx-dev/gdx-gltf)
+This project demonstrates **Dijkstra’s algorithm** for shortest-pathfinding on a 2D grid.  
+When the player places a tower (blocking a grid cell), the enemy path is recalculated.
 
-[https://github.com/SpaiR/imgui-java](https://github.com/SpaiR/imgui-java)
+---
 
-[https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
+## Template & Credits
 
-[https://github.com/google/gson](https://github.com/google/gson)
+This project is based on the **Dune-TD template** provided by Dennis Jehle for the Dune-TD assignment at University Ulm.  
+The template was modified and extended to implement my own tower defense game.
 
-[https://unsplash.com/](https://unsplash.com/)
+### Template Requirements
 
-[https://itch.io/game-assets](https://itch.io/game-assets)
+Tested with OpenJDK Runtime Environment Temurin-11.0.12+7 (build 11.0.12+7) on:
+- Windows 10
+- Linux
 
-[https://sketchfab.com/features/free-3d-models](https://sketchfab.com/features/free-3d-models)
+Link to the used JDK: https://adoptium.net/?variant=openjdk11
 
-[https://en.wikipedia.org/wiki/Spherical_coordinate_system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)
+---
 
-[https://www.kenney.nl/assets/tower-defense-kit](https://www.kenney.nl/assets/tower-defense-kit)
+## Resources
 
-[https://www.kenney.nl/assets/tower-defense-top-down](https://www.kenney.nl/assets/tower-defense-top-down)
+- [LibGDX Homepage](https://libgdx.com/)
+- [LibGDX GitHub](https://github.com/libgdx/libgdx)
+- [LibGDX Wiki](https://github.com/libgdx/libgdx/wiki)
+- [LibGDX API Docs](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/)
+- [LibGDX Community](https://libgdx.com/community/)
+- [gdx-skins](https://github.com/czyzby/gdx-skins)
+- [gdx-gltf](https://github.com/mgsx-dev/gdx-gltf)
+- [imgui-java](https://github.com/SpaiR/imgui-java)
+- [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
+- [Google Gson](https://github.com/google/gson)
+- [Unsplash](https://unsplash.com/)
+- [Itch.io Game Assets](https://itch.io/game-assets)
+- [Sketchfab Free Models](https://sketchfab.com/features/free-3d-models)
+- [Spherical Coordinate System (Wikipedia)](https://en.wikipedia.org/wiki/Spherical_coordinate_system)
+- [Kenney Tower Defense Kit](https://www.kenney.nl/assets/tower-defense-kit)
+- [Kenney Tower Defense Top Down](https://www.kenney.nl/assets/tower-defense-top-down)
 
-In the `tools` folder there is a GLTF model viewer provided by [https://github.com/mgsx-dev/gdx-gltf](https://github.com/mgsx-dev/gdx-gltf) to check if the GLTF files are working:
+**In the tools folder** there is a GLTF model viewer from [gdx-gltf](https://github.com/mgsx-dev/gdx-gltf) to check if GLTF files are working.
 
-![](model_viewer.png)
+---
 
 ## Licenses
 
-Have a look at the `core/assets/licenses` folder to see the licenses for the used game assets. If you add something new to the template, make sure to provide the licenses for your game assets.
+Have a look at the `dune/assets/licenses` folder to see the licenses for the used game assets.  
+---
+
+## Acknowledgments
+
+- University Ulm
+- Dennis Jehle (Dune-TD template)
+- LibGDX community
+
+---
+
+## License
+
+This project is for educational purposes.
